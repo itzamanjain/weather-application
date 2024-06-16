@@ -1,0 +1,123 @@
+body {
+    background: linear-gradient(to right, #F7CBFD 0%, #7758D1 100%);
+    font-family: 'popmedium', sans-serif;
+}
+
+@font-face {
+    font-family: popmedium;
+    src: url('Poppins-Medium.ttf');
+}
+
+.row {
+    background: linear-gradient(169deg, #1d2647 2.43%, #1D71F2 99.31%);
+    height: auto;
+    width: 400px;
+    margin: auto;
+    border-radius: 18px;
+    margin-top: 10%;
+    padding: 20px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    gap: 20px;
+}
+
+.search input {
+    border-radius: 14px;
+    height: 40px;
+    width: 270px;
+    border: 0;
+    padding: 4px;
+    font-size: 16px;
+    outline: none;
+    font-weight: 600;
+}
+
+.search button {
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    border: 0;
+    padding: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 14px;
+}
+
+.imgs img {
+    height: 140px;
+    width: 140px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.humidity, .wind {
+    display: flex;
+    align-items: center;
+}
+
+.humidity {
+    margin-left: 20px;
+}
+
+.wind {
+    margin-right: 20px;
+}
+
+.details i {
+    font-size: 36px;
+}
+
+.details .text {
+    margin-left: 10px;
+}
+
+.text span {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.forecast {
+    margin-top: 20px;
+}
+
+.forecast-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.forecast-day {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+    width: 120px;
+}
+
+.forecast-day img {
+    width: 50px;
+}
+
+#five-day{
+    color: white;
+}
